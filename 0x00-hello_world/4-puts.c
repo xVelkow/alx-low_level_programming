@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *  
- * Description: 'Task : 4.Hello, puts'
- * @parameter: void
- *  
- * Return: Always 0 (Success)
  *
+ * Description : '4.Hello, puts'
+ *
+ * @void : The main function takes no parameters
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
