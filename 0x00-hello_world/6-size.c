@@ -2,13 +2,10 @@
 /**
  * main - Entry point
  *
- * Description : 'Task 6. sizes'
+ * Description : '4.Sizes'
  *
  * @void : The main function takes no parameters
- *
- * printf : The main prints sizes of datatypes
- *
- * Return : always (0) : Success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
