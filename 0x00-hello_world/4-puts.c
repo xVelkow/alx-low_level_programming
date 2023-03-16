@@ -1,10 +1,12 @@
 #include <stdio.h>
-/*
- * The entry point of the program
+/**
+ * main - Entry point
+ *  
+ * Description: 'Task : 4.Hello, puts'
+ * @parameter: void
+ *  
+ * Return: Always 0 (Success)
  *
- * Task : 4.Hello,puts
- *
- * return 0 : success
  */
 int main(void)
 {
