@@ -26,7 +26,7 @@ int main(void)
 					putchar(c);
 					putchar(d);
 					if (a == 57 && c == a && d == a && b == a - 1)
-						break;
+						continue;
 					putchar(',');
 					putchar(' ');
 				}
