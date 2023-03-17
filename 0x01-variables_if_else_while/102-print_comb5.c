@@ -16,12 +16,12 @@ int main(void)
 	{
 		for (b = 48; b <= 57; b++)
 		{
+			d = b + 1;
+			c = a;
 			for (c = 48; c <= 57; c++)
 			{
 				for (d = 48; d <= 57; d++)
 				{
-					if ((d == a && d == b && d == c) || ( ((a == c || a == d) && (b == c || b == d) && d != 0)))
-						d++;
 					putchar(a);
 					putchar(b);
 					putchar(' ');
@@ -32,6 +32,7 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				d = 48;
 			}
 		}
 	}
