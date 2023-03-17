@@ -20,6 +20,8 @@ int main(void)
 			{
 				for (d = 48; d <= 57; d++)
 				{
+					if (a == c || a == d && b == c || b == d)
+						d++;
 					putchar(a);
 					putchar(b);
 					putchar(' ');
