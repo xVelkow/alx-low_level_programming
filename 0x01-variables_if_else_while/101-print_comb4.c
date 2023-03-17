@@ -21,7 +21,7 @@ int main(void)
 				putchar(y);
 				putchar(z);
 				if (y == 57 && x == y - 1 && y == z - 1)
-					break;
+					continue;
 				putchar(',');
 				putchar(' ');
 			}
