@@ -20,7 +20,7 @@ int main(void)
 				putchar(x);
 				putchar(y);
 				putchar(z);
-				if (x == y - 1 && y == z - 1)
+				if (x == y - 1 && y == z - 1 && z == 57)
 					continue;
 				putchar(',');
 				putchar(' ');
