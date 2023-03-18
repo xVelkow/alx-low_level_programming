@@ -10,22 +10,24 @@ int main(void)
 
 	while (i < 100)
 	{
-	while (j < 100)
-	{
-		putchar(i / 10 + '0');
-		putchar(i % 10 + '0');
-		putchar(' ');
-		putchar(j / 10 + '0');
-		putchar(j % 10 + '0');
-		if (i != 98 || j != 99)
-	{
-		putchar(',');
-		putchar(' ');
-	}
-		j++;
-	}
+		while (j < 100)
+		{
+			putchar(i / 10 + '0');
+			putchar(i % 10 + '0');
+			putchar(' ');
+			putchar(j / 10 + '0');
+			putchar(j % 10 + '0');
+			if (i != 98 || j != 99)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			j++;
+		}
 		i++;
 		j = i + 1;
 	}
-		return (0);
+	putchar('\n');
+
+	return (0);
 }
