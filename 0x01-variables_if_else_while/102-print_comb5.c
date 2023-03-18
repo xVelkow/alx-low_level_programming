@@ -1,42 +1,31 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: 'last task'
- * @void: The main function takes no parameters
- * Return: always 0 (Success)
- */
+ * main - prints all numbers of base 16 in lowercase.
+ *
+ * Return: 0
+*/
 int main(void)
 {
-	int a;
-	int b;
-	int c;
-	int d;
+	int i = 0, j = 1;
 
-	for (a = 48; a <= 57; a++)
+	while (i < 100)
 	{
-		for (b = 48; b <= 57; b++)
-		{
-			for (c = a; c <= 57; c++)
-			{
-				for (d = 48; d <= 57; d++)
-				{
-					if ((a == c || a == d) && (b == c || b == d))
-						continue;
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);
-					putchar(d);
-					if (a == 57 && b == 56)
-						break;
-					putchar(',');
-					putchar(' ');
-				}
-				d = 48;
-			}
-		}
+	while (j < 100)
+	{
+		putchar(i / 10 + '0');
+		putchar(i % 10 + '0');
+		putchar(' ');
+		putchar(j / 10 + '0');
+		putchar(j % 10 + '0');
+		if (i != 98 || j != 99)
+	{
+		putchar(',');
+		putchar(' ');
 	}
-	putchar('\n');
-
-	return (0);
+		j++;
+	}
+		i++;
+		j = i + 1;
+	}
+		return (0);
 }
