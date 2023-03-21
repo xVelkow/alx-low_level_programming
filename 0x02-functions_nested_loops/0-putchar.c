@@ -2,8 +2,8 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
- * @parameter: describe the parameter
+ * Description: 'task 0'
+ * @void: does not take any parameters
  *
  * Return: Always 0 (Success)
  */
