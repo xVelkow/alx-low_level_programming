@@ -5,11 +5,11 @@
  *
  * Description: 'task 7'
  *
- * @int: does take an integer
+ * @x: does take an integer
  *
  * Return: Always 0 (Success)
  */
-print_last_digit(int x)
+int print_last_digit(int x)
 {
 	int last_digit = x % 10;
 
