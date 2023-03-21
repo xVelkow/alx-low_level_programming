@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- * 
+ * print_alphabet - prints a to z
+ *
  * Description: 'task 1'
  *
  * @void: does not take any parameters
