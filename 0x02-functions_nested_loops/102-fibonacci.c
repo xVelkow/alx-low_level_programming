@@ -19,7 +19,10 @@ int main(void)
 		y = temp;
 		printf("%ld", x);
 		if (i < 49)
+		{
 			putchar(',');
+			putchar(' ');
+		}
 	}
 	printf("\n");
 	return (0);
