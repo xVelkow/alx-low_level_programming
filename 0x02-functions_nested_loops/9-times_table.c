@@ -18,10 +18,18 @@ void times_table(void)
 	{
 		for (; y < 10; y++)
 		{
-			_putchar((x * y) + '0');
-			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
+			if ((x * y) <= 10)
+			{
+				_putchar(((x * y) / 10) + '0');
+				_putchar(((x * y) % 10) + '0');
+			}
+			else
+			{
+				_putchar((x * y) + '0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+			}
 		}
 		y = 0;
 		_putchar('\n');
