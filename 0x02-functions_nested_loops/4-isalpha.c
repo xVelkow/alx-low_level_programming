@@ -11,17 +11,17 @@
 int _isalpha(int c)
 {
 	char a = 'A';
-        char n = 'Z';
+	char n = 'Z';
 
 	for (; a <= n; a++)
 	{
 		if (a == c)
-			return 1;
+			return (1);
 		if (a == 'Z')
 		{
 			a += 7;
 			n = 'z';
 		}
 	}
-	return 0;
+	return (0);
 }
