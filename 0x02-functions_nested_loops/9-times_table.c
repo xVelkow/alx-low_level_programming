@@ -22,13 +22,14 @@ void times_table(void)
 			{
 				_putchar(((x * y) / 10) + '0');
 				_putchar(((x * y) % 10) + '0');
+				_putchar(',');
 			}
 			else
 			{
 				_putchar((x * y) + '0');
+				_putchar(',');
+				_putchar(' ');
 			}
-			_putchar(',');
-			_putchar(' ');
 			_putchar(' ');
 		}
 		y = 0;
