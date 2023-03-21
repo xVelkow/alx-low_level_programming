@@ -1,9 +1,12 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
  * main - Entry point
+ * Description : printing _putchar
+ *
  * Return : 0
  */
+
 int main(void)
 {
 	char s[] = "_putchar";
@@ -14,5 +17,5 @@ int main(void)
 		_putchar(s[i]);
 	}
 	_putchar('\n');
-	return 0;
+	return (0);
 }
