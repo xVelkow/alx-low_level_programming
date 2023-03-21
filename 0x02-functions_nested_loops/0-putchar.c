@@ -1,10 +1,11 @@
 #include "main.h"
-
 /**
  * main - Entry point
- * Description : printing _putchar
  *
- * Return : Always 0 (Success)
+ * Description: 'the program's description'
+ * @parameter: describe the parameter
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
