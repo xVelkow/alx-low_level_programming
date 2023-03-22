@@ -27,9 +27,17 @@ void print_times_table(int n)
 			{
 				if (((x * y) >= 10) || (x * (y + 1)) >= 10)
 				{
-					if ((x * y) >= 10)
+					if ((x * y) >= 10 && (x * y) < 100)
+					{
 						_putchar(((x * y) / 10) + '0');
-					_putchar(((x * y) % 10) + '0');
+						_putchar(((x * y) % 10) + '0');
+					}
+					else if ((x * y) >= 100)
+					{
+						_putchar(((x * y) / 100) + '0');
+						_putchar((((x * y) % 100) / 10) + '0');
+						_putchar((((x * y) % 100) % 10) + '0');
+					}
 					if (y != n)
 					{
 						_putchar(',');
