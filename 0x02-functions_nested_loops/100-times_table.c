@@ -38,6 +38,10 @@ void print_times_table(int n)
 						_putchar((((x * y) % 100) / 10) + '0');
 						_putchar((((x * y) % 100) % 10) + '0');
 					}
+					else
+					{
+						_putchar((x * y) + '0');
+					}
 					if (y != n)
 					{
 						_putchar(',');
