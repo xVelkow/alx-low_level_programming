@@ -47,7 +47,9 @@ void print_times_table(int n)
 						_putchar(',');
 						_putchar(' ');
 						if ((x * y) < 100)
+						{
 							_putchar('x');
+						}
 					}
 				}
 				else
