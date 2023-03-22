@@ -20,9 +20,9 @@ void print_times_table(int n)
 		{
 			for (; y <= n; y++)
 			{
-				if (((x * y) >= n) || (x * (y + 1)) >= n)
+				if (((x * y) >= 10) || (x * (y + 1)) >= 10)
 				{
-					if ((x * y) >= n)
+					if ((x * y) >= 10)
 						_putchar(((x * y) / 10) + '0');
 					_putchar(((x * y) % 10) + '0');
 					if (y != 9)
