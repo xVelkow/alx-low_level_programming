@@ -16,9 +16,9 @@ void print_times_table(int n)
 
 	if (!(n > 15 || n < 0))
 	{
-		for (; x < n; x++)
+		for (; x <= n; x++)
 		{
-			for (; y < n; y++)
+			for (; y <= n; y++)
 			{
 				if (((x * y) >= n) || (x * (y + 1)) >= n)
 				{
