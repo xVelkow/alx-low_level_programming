@@ -12,7 +12,7 @@ int main(void)
 	unsigned long x = 1;
 	unsigned long temp;
 
-	for (i = 0; i < 98; i++)
+	for (i = 0; i < 100; i++)
 	{
 		temp = x;
 		x = x + y;
