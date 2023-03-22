@@ -1,12 +1,8 @@
 #include "main.h"
-
 /**
  * print_times_table - prints times table from 0 to n
- *
  * Description: 'task 12'
- *
  * @n: does take an integer
- *
  * Return: Always 0 (Success)
  */
 void print_times_table(int n)
@@ -14,12 +10,7 @@ void print_times_table(int n)
 	int x = 0;
 	int y = 0;
 
-	if (n == 0)
-	{
-		_putchar(n + '0');
-		_putchar('\n');
-	}
-	else if (!(n > 15 || n < 0))
+	if (!(n > 15 || n < 0))
 	{
 		for (; x <= n; x++)
 		{
