@@ -15,7 +15,10 @@ void print_times_table(int n)
 	int y = 0;
 
 	if (n == 0)
-		printf("%d\n", n);
+	{
+		_putchar(n + '0');
+		_putchar('\n');
+	}
 	else if (!(n > 15 || n < 0))
 	{
 		for (; x <= n; x++)
