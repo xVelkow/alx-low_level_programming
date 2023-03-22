@@ -12,13 +12,13 @@ int main(void)
 	unsigned long x = 1;
 	unsigned long temp;
 
-	for (i = 0; i < 100; i++)
+	for (i = 0; i < 98; i++)
 	{
 		temp = x;
 		x = x + y;
 		y = temp;
 		printf("%lu", x);
-		if (i < 49)
+		if (i < 97)
 		{
 			putchar(',');
 			putchar(' ');
