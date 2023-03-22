@@ -8,16 +8,16 @@
 int main(void)
 {
 	int i;
-	long long int y = 0;
-	long long int x = 1;
-	long long int temp;
+	unsigned long long y = 0;
+	unsigned long long x = 1;
+	unsigned long long temp;
 
 	for (i = 0; i < 98; i++)
 	{
 		temp = x;
 		x = x + y;
 		y = temp;
-		printf("%lld", x);
+		printf("%llu", x);
 		if (i < 97)
 		{
 			putchar(',');
