@@ -1,7 +1,9 @@
 /**
- * _isupper: check if a character is uppercase
- * Description: 'task 0'
+ * _isupper - check if uppercase wornjfwoieufnwoiuefnwieuf.
+ * Description: 'task 0'.
+ *
  * @c: integer
+ *
  * Return: Always 0 (Success)
  */
 int _isupper(int c)
