@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts : prints
+ * _puts - prints
  * Description: task3
  * @str: pointer to char
  * Return: void
